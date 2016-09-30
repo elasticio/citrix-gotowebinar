@@ -9,5 +9,15 @@
         "viewClass": "TextFieldView"
       }
     }
+  },
+  "actions": {
+    "addParticipant": {
+      "title": "Add Participant",
+      "main": "./lib/actions/addParticipant.js",
+      "metadata": {
+        "in": "./lib/schemas/addParticipant.in.json",
+        "out": "./lib/schemas/addParticipant.out.json"
+      }
+    }
   }
 }
