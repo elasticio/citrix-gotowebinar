@@ -2,9 +2,9 @@
 > Component to talk to Citrix GoToWebinar REST API
 
 # citrix-go-to-webinar-component
-&gt; Citrix GoToWebinar component for the [elastic.io platform](http://www.elastic.io &#34;elastic.io platform&#34;)
+Citrix GoToWebinar component for the [elastic.io platform](http://www.elastic.io &#34;elastic.io platform&#34;)
 
-&lt;%- componentDescription -&gt;. If you plan to **deploy it into [elastic.io platform](http://www.elastic.io &#34;elastic.io platform&#34;) you must follow sets of instructions to succseed**. 
+If you plan to **deploy it into [elastic.io platform](http://www.elastic.io &#34;elastic.io platform&#34;) you must follow sets of instructions to succseed**. 
 
 ## Before you Begin
 
@@ -12,7 +12,7 @@ Before you can deploy any code into elastic.io **you must be a registered elasti
 
 We&#39;ll use git and SSH public key authentication to upload your component code, therefore you must **[upload your SSH Key](http://docs.elastic.io/docs/ssh-key)**. 
 
-&gt; If you fail to upload you SSH Key you will get **permission denied** error during the deployment.
+If you fail to upload you SSH Key you will get **permission denied** error during the deployment.
 
 ## Getting Started
 
@@ -32,6 +32,13 @@ Now we are ready to push it:
 ```bash
 $ git push elasticio master
 ```
+
+## Environment Variables
+
+This components uses OAuth 2.0 authentication from Citrix REST API, and would need following ENV Vars to be set on repository - ``CITRIX_APP_ID`` and ``CITRIX_APP_SECRET``
+
+*Note*: when cofniguring callback url on Citrix please use ``https://your-tenant.elastic.io/callback/oauth2``
+
 
 ## License
 
