@@ -45,9 +45,9 @@ This components uses OAuth 2.0 authentication from Citrix REST API, and would ne
 Apache-2.0 © [elastic.io GmbH](http://elastic.io)
 
 
-[npm-image]: https://badge.fury.io/js/citrix-go-to-webinar-component.svg
-[npm-url]: https://npmjs.org/package/citrix-go-to-webinar-component
-[travis-image]: https://travis-ci.org/elasticio/citrix-go-to-webinar-component.svg?branch=master
-[travis-url]: https://travis-ci.org/elasticio/citrix-go-to-webinar-component
-[daviddm-image]: https://david-dm.org/elasticio/citrix-go-to-webinar-component.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/elasticio/citrix-go-to-webinar-component
+[npm-image]: https://badge.fury.io/js/citrix-gotowebinar.svg
+[npm-url]: https://npmjs.org/package/citrix-gotowebinar
+[travis-image]: https://travis-ci.org/elasticio/citrix-gotowebinar.svg?branch=master
+[travis-url]: https://travis-ci.org/elasticio/citrix-gotowebinar
+[daviddm-image]: https://david-dm.org/elasticio/citrix-gotowebinar.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/elasticio/citrix-gotowebinar
