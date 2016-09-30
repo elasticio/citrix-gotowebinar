@@ -11,6 +11,12 @@
         "label": "Authentication",
         "viewClass": "OAuthFieldView",
         "required": true
+      },
+      "organizerKey": {
+        "label": "Organizer Key",
+        "viewClass": "TextFieldView",
+        "required": true,
+        "placeholder": "7177403376551258124"
       }
     },
     "oauth2": {
@@ -25,6 +31,14 @@
     "addParticipant": {
       "title": "Add Participant",
       "main": "./lib/actions/addParticipant.js",
+      "fields": {
+        "webinarKey": {
+          "label": "Webinar",
+          "viewClass": "TextFieldView",
+          "required": true,
+          "placeholder": "Place your WebinarKey here"
+        }
+      },
       "metadata": {
         "in": "./lib/schemas/addParticipant.in.json",
         "out": "./lib/schemas/addParticipant.out.json"
