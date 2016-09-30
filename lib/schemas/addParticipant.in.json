@@ -1,10 +1,14 @@
 {
   "type": "object",
   "properties": {
-    "inValue": {
-      "type": "string",
-      "required": true,
-      "title": "Input Value"
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
     }
   }
 }
