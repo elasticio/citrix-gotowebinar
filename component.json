@@ -1,0 +1,13 @@
+{
+  "title": "Citrix GoToWebinar",
+  "description": "Component to talk to Citrix GoToWebinar REST API",
+  "credentials": {
+    "fields": {
+      "name": {
+        "label": "My API Key",
+        "required": true,
+        "viewClass": "TextFieldView"
+      }
+    }
+  }
+}
