@@ -1,13 +1,24 @@
 {
   "title": "Citrix GoToWebinar",
   "description": "Component to talk to Citrix GoToWebinar REST API",
+  "env": [
+    "CITRIX_APP_ID",
+    "CITRIX_APP_SECRET"
+  ],
   "credentials": {
     "fields": {
-      "name": {
-        "label": "My API Key",
-        "required": true,
-        "viewClass": "TextFieldView"
+      "oauth": {
+        "label": "Authentication",
+        "viewClass": "OAuthFieldView",
+        "required": true
       }
+    },
+    "oauth2": {
+      "client_id": "{{CITRIX_APP_ID}}",
+      "client_secret": "{{CITRIX_APP_SECRET}}",
+      "auth_uri": "https://api.citrixonline.com/oauth/authorize",
+      "token_uri": "https://api.citrixonline.com/oauth/access_token",
+      "grant_type": "authorization_code"
     }
   },
   "actions": {
