@@ -49,5 +49,5 @@ Apache-2.0 © [elastic.io GmbH](http://elastic.io)
 [npm-url]: https://npmjs.org/package/citrix-gotowebinar
 [travis-image]: https://travis-ci.org/elasticio/citrix-gotowebinar.svg?branch=master
 [travis-url]: https://travis-ci.org/elasticio/citrix-gotowebinar
-[daviddm-image]: https://david-dm.org/elasticio/citrix-gotowebinar.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/elasticio/citrix-gotowebinar/status.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/elasticio/citrix-gotowebinar
