@@ -39,6 +39,12 @@ This components uses OAuth 2.0 authentication from Citrix REST API, and would ne
 
 *Note*: when cofniguring callback url on Citrix please use ``https://your-tenant.elastic.io/callback/oauth2``
 
+## Known issues
+
+OAuth 2.0 token that is obtained by the component is currently not refreshed, 
+this shortcoming need to be fixed later. Reason for that according 
+to [the documentation](https://developer.citrixonline.com/how-use-refresh-tokens)
+ issued token is valid _365 days_.
 
 ## License
 
